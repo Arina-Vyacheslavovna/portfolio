@@ -4,126 +4,96 @@
     background: #ffffff;
     font-family: sans-serif;
     width: auto;
-    margin: auto;
+    margin: 0 auto;
   }
 
   header {
     position: relative;
-    min-width: 940px;
-    margin: auto;
-    width: 940px;
-  }
-
-  .line {
-    padding-top: 32px;
-    padding-bottom: 32px;
+    margin: 0 auto;
     width: 940px;
   }
 
   nav {
+    padding-top: 32px;
+    padding-bottom: 32px;
     position: relative;
     text-align: center;
   }
 
   nav ul {
+    display: flex;
+    justify-content: space-between;
     height: 23px;
+    width: auto;
+    padding: 0;
+    margin: 0;
   }
 
   nav ul li {
     display: inline;
-    /* margin-left: 70px;
-  margin-right: 70px; */
     font-family: Gilroy-Bold;
     font-family: sans-serif;
     font-size: 18px;
     line-height: 22px;
     color: #828282;
+    text-align: center;
   }
 
   nav ul li a {
     display: inline-block;
-    width: 217px;
+    width: auto;
     text-decoration: none;
     color: #828282;
   }
 
-  nav ul li:first-child {
-    margin-left: -140px;
-  }
-
-  nav ul li:last-child {
-    margin-right: -90px;
+  nav ul li a:hover {
+    color: black;
   }
 
   hr {
     width: 940px;
   }
 
-  table {
-    width: 100%;
-    width: 950px;
-    /* border-collapse: collapse; /*убираем пустые промежутки между ячейками*/
-    /* border: 1px solid grey; */
-    table-layout: fixed;
-    margin: auto;
+  .blocks {
+    width: 940px;
+    display: flex;
+    /* flex-flow: row nowrap; */
+    /* justify-content: space-between; */
+    margin: 0 auto;
   }
-  /* 
-table td {
-  border: 1px solid grey;
-} */
 
-  table tr td:first-child {
+  .block {
+    /* box-sizing: border-box; */
+    margin: auto;
+    padding: 0;
+  }
+
+  .block:first-child {
+    padding: 0;
+    margin: 0;
+  }
+
+  .block:last-child {
     font-family: Gilroy-Bold;
-    font-size: 35px;
+    font-size: 16px;
+    font-family: sans-serif;
+    padding: 0;
+    margin: 0;
+    align-self: center;
+  }
+
+  .Denis {
+    font-family: Gilroy-Bold;
+    font-size: 47px;
     font-family: sans-serif;
     line-height: 59px;
-    
-  }
-
-  .Home1 h1 {
-    position: relative;
-  }
-
-  .Denis::after {
-    content: " ";
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    height: 5px;
-    display: block;
-    background: red;
   }
 
   .center {
-    text-align: center;
     font-family: Gilroy-Medium;
     font-family: sans-serif;
     font-size: 18px;
   }
-
-  table tr td:last-child {
-    font-family: Gilroy-Bold;
-    font-size: 16px;
-    font-family: sans-serif;
-    
-  }
-
-  /* .blocks {
-  display: flex;
-  justify-content: space-between;
-}
-
-.block {
-  display: inline-block;
-}
-
-.block:first-child {
-  font-family: Gilroy-Bold;
-  font-size: 30px;
-  padding-top: 40px;
-  padding-bottom: 30px;
-} */
 
   .rotate {
     writing-mode: tb-rl;
@@ -133,11 +103,9 @@ table td {
 
   .pict {
     width: 100%;
-    width: 943px;
-    margin: auto;
-  }
-
-  .Home1 {
+    width: 940px;
+    margin: 0 auto;
+    padding: 0;
     padding-bottom: 104px;
   }
 
@@ -150,7 +118,7 @@ table td {
     width: auto;
   }
 
-  .About_Me2 h1 {
+  .Subtitle {
     padding-top: 120px;
     font-family: Gilroy-Bold, sans-serif;
     font-size: 34px;
@@ -165,6 +133,8 @@ table td {
     line-height: 22px;
     text-align: center;
     padding-bottom: 107px;
+    width: 485px;
+    margin: auto;
   }
 
   .Skills3 {
@@ -176,7 +146,7 @@ table td {
     padding-bottom: 110px;
   }
 
-  .Skills3 h1 {
+  .Subtitle {
     margin-top: 90px;
     margin-bottom: 69px;
     font-family: Gilroy-Bold, sans-serif;
@@ -237,7 +207,6 @@ table td {
 
   .stars > span.active {
     color: black;
-    /* text-shadow: 1px 1px blue; */
   }
 
   .Portfolio4 {
@@ -245,12 +214,14 @@ table td {
     background: #f6f6f6;
   }
 
-  .Portfolio4 h1 {
+  .Subtitle {
     font-family: Gilroy-Bold, sans-serif;
     font-size: 34px;
     line-height: 42px;
     text-align: center;
     margin-bottom: 47px;
+    text-decoration-line: none;
+    margin: auto;
   }
 
   .Portfolio4 p {
@@ -268,7 +239,7 @@ table td {
     padding-bottom: 123px;
   }
 
-  .Contacts5 h1 {
+  .Subtitle {
     font-family: Gilroy-Bold, sans-serif;
     font-size: 34px;
     line-height: 42px;
