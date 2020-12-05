@@ -1,299 +1,304 @@
-@media screen and (min-width: 800px) {
-  html,
-  body {
-    background: #ffffff;
-    font-family: sans-serif;
-    width: auto;
-    margin: 0 auto;
-  }
-
-  header {
-    position: relative;
-    margin: 0 auto;
-    width: 940px;
-  }
-
-  nav {
-    padding-top: 32px;
-    padding-bottom: 32px;
-    position: relative;
-    text-align: center;
-  }
-
-  nav ul {
-    display: flex;
-    justify-content: space-between;
-    height: 23px;
-    width: auto;
-    padding: 0;
-    margin: 0;
-  }
-
-  nav ul li {
-    display: inline;
-    font-family: Gilroy-Bold;
-    font-family: sans-serif;
-    font-size: 18px;
-    line-height: 22px;
-    color: #828282;
-    text-align: center;
-  }
-
-  nav ul li a {
-    display: inline-block;
-    width: auto;
-    text-decoration: none;
-    color: #828282;
-  }
-
-  nav ul li a:hover {
-    color: black;
-  }
-
-  hr {
-    width: 940px;
-  }
-
-  .blocks {
-    width: 940px;
-    display: flex;
-    /* flex-flow: row nowrap; */
-    /* justify-content: space-between; */
-    margin: 0 auto;
-  }
-
-  .block {
-    /* box-sizing: border-box; */
-    margin: auto;
-    padding: 0;
-  }
-
-  .block:first-child {
-    padding: 0;
-    margin: 0;
-  }
-
-  .block:last-child {
-    font-family: Gilroy-Bold;
-    font-size: 16px;
-    font-family: sans-serif;
-    padding: 0;
-    margin: 0;
-    align-self: center;
-  }
-
-  .Denis {
-    font-family: Gilroy-Bold;
-    font-size: 47px;
-    font-family: sans-serif;
-    line-height: 59px;
-  }
-
-  .center {
-    font-family: Gilroy-Medium;
-    font-family: sans-serif;
-    font-size: 18px;
-  }
-
-  .rotate {
-    writing-mode: tb-rl;
-    transform: rotate(180deg);
-    float: right;
-  }
-
-  .pict {
-    width: 100%;
-    width: 940px;
-    margin: 0 auto;
-    padding: 0;
-    padding-bottom: 104px;
-  }
-
-  .About_Me2 {
-    position: relative;
-    width: 485px;
-    background-color: #f6f6f6;
-    text-align: center;
-    font-family: sans-serif;
-    width: auto;
-  }
-
-  .Subtitle {
-    padding-top: 120px;
-    font-family: Gilroy-Bold, sans-serif;
-    font-size: 34px;
-    line-height: 42px;
-    text-align: center;
-  }
-
-  .text {
-    font-family: Gilroy-Medium, sans-serif;
-    font-family: sans-serif;
-    font-size: 18px;
-    line-height: 22px;
-    text-align: center;
-    padding-bottom: 107px;
-    width: 485px;
-    margin: auto;
-  }
-
-  .Skills3 {
-    position: relative;
-    background-color: #ffffff;
-    margin: auto;
-    text-align: center;
-    width: 940px;
-    padding-bottom: 110px;
-  }
-
-  .Subtitle {
-    margin-top: 90px;
-    margin-bottom: 69px;
-    font-family: Gilroy-Bold, sans-serif;
-    font-size: 34px;
-    line-height: 42px;
-    text-align: center;
-  }
-  .text_programs {
-    font-family: Gilroy-Medium, sans-serif;
-    font-size: 18px;
-    line-height: 22px;
-    text-align: center;
-  }
-
-  .Skills3 .programs p {
-    font-family: Gilroy-Bold, sans-serif;
-    font-size: 14px;
-    line-height: 17px;
-    text-align: center;
-    top: 35.29%;
-    bottom: 64.14%;
-  }
-
-  .programs {
-    width: 940px;
-    display: flex;
-    flex-wrap: wrap;
-    width: 100%;
-  }
-
-  .programs .program {
-    align-items: flex-start;
-    text-align: center;
-    padding: 24px;
-    box-sizing: border-box;
-    margin: auto;
-  }
-
-  .stars {
-    width: 26px;
-    margin: 0 auto;
-    display: inline;
-  }
-
-  .stars span {
-    display: inline-block;
-    padding: 0;
-    font-size: 32px;
-    margin: 0 3px;
-    line-height: 1;
-    color: lightgrey;
-    text-shadow: 1px 1px #bbb;
-  }
-
-  .stars > span::before {
-    content: "★";
-  }
-
-  .stars > span.active {
-    color: black;
-  }
-
-  .Portfolio4 {
-    padding-top: 112px;
-    background: #f6f6f6;
-  }
-
-  .Subtitle {
-    font-family: Gilroy-Bold, sans-serif;
-    font-size: 34px;
-    line-height: 42px;
-    text-align: center;
-    margin-bottom: 47px;
-    text-decoration-line: none;
-    margin: auto;
-  }
-
-  .Portfolio4 p {
-    font-family: Gilroy-Medium, sans-serif;
-    font-size: 18px;
-    line-height: 22px;
-    text-align: center;
-    text-decoration-line: underline;
-    padding-top: 45px;
-    padding-bottom: 99px;
-  }
-
-  .Contacts5 {
-    padding-top: 114px;
-    padding-bottom: 123px;
-  }
-
-  .Subtitle {
-    font-family: Gilroy-Bold, sans-serif;
-    font-size: 34px;
-    line-height: 42px;
-    text-align: center;
-  }
-
-  .Contacts5 p {
-    font-family: Gilroy-Medium, sans-serif;
-    font-size: 18px;
-    line-height: 22px;
-    text-align: center;
-    padding-top: 20px;
-    padding-bottom: 29px;
-  }
-
-  a.Mess {
-    display: inline-block;
-    position: relative;
-    left: 50%;
-    transform: translate(-50%, 0);
-
-    font-family: Gilroy-Bold, sans-serif;
-    font-size: 18px;
-    line-height: 22px;
-    text-align: center;
-    color: white;
-
-    text-decoration: none;
-    padding: 0.5em 2em;
-    border-radius: 30px;
-    background: black;
-    margin-bottom: 85px;
-  }
-
-  .links {
-    width: 400px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    margin: auto;
-    margin-bottom: 45px;
-  }
-
-  .link {
-    box-sizing: border-box;
-    margin: auto;
-    height: 40.92px;
-  }
-
-  .Contacts5 p:last-child {
-    font-family: Gilroy-Medium, sans-serif;
-    font-size: 14px;
-    line-height: 17px;
-    text-align: center;
-    color: #828282;
-  }
+html,
+body {
+  background: #ffffff;
+  font-family: sans-serif;
+  width: auto;
+  margin: 0 auto;
 }
+
+header {
+  position: relative;
+  margin: 0 auto;
+  width: 940px;
+}
+
+nav {
+  padding-top: 32px;
+  padding-bottom: 32px;
+  position: relative;
+  text-align: center;
+}
+
+nav ul {
+  display: flex;
+  justify-content: space-between;
+  height: 23px;
+  width: auto;
+  padding: 0;
+  margin: 0;
+}
+
+nav ul li {
+  display: inline;
+  font-family: Gilroy-Bold;
+  font-family: sans-serif;
+  font-size: 18px;
+  line-height: 22px;
+  color: #828282;
+  text-align: center;
+}
+
+nav ul li a {
+  display: inline-block;
+  width: auto;
+  text-decoration: none;
+  color: #828282;
+}
+
+nav ul li a:hover {
+  color: black;
+}
+
+hr {
+  width: 940px;
+}
+
+.blocks {
+  width: 940px;
+  display: flex;
+  /* flex-flow: row nowrap; */
+  /* justify-content: space-between; */
+  margin: 0 auto;
+}
+
+.block {
+  /* box-sizing: border-box; */
+  margin: auto;
+  padding: 0;
+}
+
+.block:first-child {
+  padding: 0;
+  margin: 0;
+}
+
+.block:last-child {
+  font-family: Gilroy-Bold;
+  font-size: 16px;
+  font-family: sans-serif;
+  padding: 0;
+  margin: 0;
+  align-self: center;
+}
+
+.Denis {
+  font-family: Gilroy-Bold;
+  font-size: 47px;
+  font-family: sans-serif;
+  line-height: 59px;
+}
+
+.center {
+  font-family: Gilroy-Medium;
+  font-family: sans-serif;
+  font-size: 18px;
+}
+
+.rotate {
+  writing-mode: tb-rl;
+  transform: rotate(180deg);
+  float: right;
+}
+
+.pict {
+  width: 100%;
+  width: 940px;
+  margin: 0 auto;
+  padding: 0;
+  padding-bottom: 104px;
+}
+
+.Grey {
+  background-color: #f6f6f6;
+  text-align: center;
+  margin: 0 auto;
+  min-width: 940px;
+}
+
+.About_Me2 {
+  position: relative;
+  width: 485px;
+  text-align: center;
+  margin: auto;
+} 
+
+.Subtitle {
+  padding-top: 120px;
+  font-family: Gilroy-Bold, sans-serif;
+  font-size: 34px;
+  line-height: 42px;
+  text-align: center;
+} 
+
+.text {
+  font-family: Gilroy-Medium, sans-serif;
+  font-family: sans-serif;
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+  padding-top: 17px;
+  padding-bottom: 107px;
+  width: 485px;
+  margin: auto;
+}
+ 
+.Skills3 {
+  position: relative;
+  background-color: #ffffff;
+  margin: auto;
+  text-align: center;
+  width: 940px;
+  padding-bottom: 110px;
+}
+
+.Subtitle {
+  margin-top: 90px;
+  margin-bottom: 69px;
+  font-family: Gilroy-Bold, sans-serif;
+  font-size: 34px;
+  line-height: 42px;
+  text-align: center;
+}
+.text_programs {
+  font-family: Gilroy-Medium, sans-serif;
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+}
+
+.Skills3 .programs p {
+  font-family: Gilroy-Bold, sans-serif;
+  font-size: 14px;
+  line-height: 17px;
+  text-align: center;
+  top: 35.29%;
+  bottom: 64.14%;
+}
+
+.programs {
+  width: 940px;
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.programs .program {
+  align-items: flex-start;
+  text-align: center;
+  padding: 24px;
+  box-sizing: border-box;
+  margin: auto;
+}
+
+.stars {
+  width: 26px;
+  margin: 0 auto;
+  display: inline;
+}
+
+.stars span {
+  display: inline-block;
+  padding: 0;
+  font-size: 32px;
+  margin: 0 3px;
+  line-height: 1;
+  color: lightgrey;
+  text-shadow: 1px 1px #bbb;
+}
+
+.stars > span::before {
+  content: "★";
+}
+
+.stars > span.active {
+  color: black;
+}
+
+.Portfolio4 {
+  padding-top: 112px;
+}
+
+.Subtitle {
+  font-family: Gilroy-Bold, sans-serif;
+  font-size: 34px;
+  line-height: 42px;
+  text-align: center;
+  margin-bottom: 47px;
+  text-decoration-line: none;
+  margin: auto;
+}
+
+.Portfolio4 p {
+  font-family: Gilroy-Medium, sans-serif;
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+  text-decoration-line: underline;
+  padding-top: 45px;
+  padding-bottom: 99px;
+}
+
+.Contacts5 {
+  padding-top: 114px;
+  padding-bottom: 123px;
+  width: 940px;
+  margin: auto;
+}
+
+.Subtitle {
+  font-family: Gilroy-Bold, sans-serif;
+  font-size: 34px;
+  line-height: 42px;
+  text-align: center;
+}
+
+.Contacts5 p {
+  font-family: Gilroy-Medium, sans-serif;
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 29px;
+}
+
+a.Mess {
+  display: inline-block;
+  position: relative;
+  left: 50%;
+  transform: translate(-50%, 0);
+
+  font-family: Gilroy-Bold, sans-serif;
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+  color: white;
+
+  text-decoration: none;
+  padding: 0.5em 2em;
+  border-radius: 30px;
+  background: black;
+  margin-bottom: 85px;
+}
+
+.links {
+  width: 400px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: auto;
+  margin-bottom: 45px;
+}
+
+.link {
+  box-sizing: border-box;
+  margin: auto;
+  height: 40.92px;
+}
+
+.Contacts5 p:last-child {
+  font-family: Gilroy-Medium, sans-serif;
+  font-size: 14px;
+  line-height: 17px;
+  text-align: center;
+  color: #828282;
+} 
