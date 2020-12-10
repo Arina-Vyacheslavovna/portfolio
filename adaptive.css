@@ -1,0 +1,201 @@
+@media only screen and (max-width: 1200px) {
+  header,
+  .Skills3,
+  .Contacts5,
+  hr,
+  .blocks,
+  .pict {
+    width: 75%;
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  header,
+  .Contacts5,
+  hr,
+  .blocks,
+  .pict {
+    width: 85%;
+  }
+
+  .Skills3 {
+    width: 450px;
+  }
+
+  .Portfolio4,
+  .Contacts5 {
+    padding-top: 5px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  header,
+  .Contacts5,
+  hr,
+  .blocks,
+  .pict {
+    width: 95%;
+  }
+
+  .Skills3 {
+    width: 450px;
+  }
+
+  .Portfolio4,
+  .Contacts5 {
+    padding-top: 5px;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  html, body {
+    min-width: 500px;
+  }
+
+
+  .activen {
+    height: 0;
+  }
+
+  .hidden {
+    height: auto;
+    min-width: 480px;
+  }
+
+  
+  header {
+    position: fixed;
+    margin: 0 auto;
+    width: 100%;
+    z-index: 1000;
+    padding: 0;
+  }
+
+  .header ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    overflow: hidden;
+    background-color: #fff;
+    display: block;
+  }
+
+  .header li a {
+    display: block;
+    padding: 20px 20px;
+    text-decoration: none;
+    font-family: Gilroy-Bold;
+    font-family: sans-serif;
+    font-size: 18px;
+    line-height: 22px;
+    color: #828282;
+  }
+
+  .header li a:hover,
+  .header .menu-btn:hover {
+    color: black;
+  }
+
+  .header .menu {
+    clear: both;
+    max-height: 0;
+    transition: max-height 0.2s ease-out;
+  }
+
+  .header .menu-icon {
+    cursor: pointer;
+    display: inline-block;
+    float: right;
+    padding: 20px 20px;
+    position: relative;
+    user-select: none;
+    top: 0;
+  }
+
+  .header .menu-icon .navicon {
+    background: black;
+    display: block;
+    height: 4px;
+    position: relative;
+    width: 33px;
+  }
+
+  .header .menu-icon .navicon:before,
+  .header .menu-icon .navicon:after {
+    background: black;
+    content: "";
+    display: block;
+    height: 100%;
+    position: absolute;
+    width: 100%;
+  }
+
+  .header .menu-icon .navicon:before {
+    top: 7px;
+  }
+
+  .header .menu-icon .navicon:after {
+    top: -7px;
+  }
+
+  .header .menu-btn {
+    display: none;
+  }
+
+  .header .menu-btn:checked ~ .menu {
+    max-height: 100%;
+  }
+
+  .header .menu-btn:checked ~ .menu-icon .navicon {
+    background: transparent;
+  }
+
+  .header .menu-btn:checked ~ .menu-icon .navicon:before {
+    transform: rotate(-45deg);
+    background: #828282;
+  }
+
+  .header .menu-btn:checked ~ .menu-icon .navicon:after {
+    transform: rotate(45deg);
+    background: #828282;
+  }
+
+  .header .menu-btn:checked ~ .menu-icon:not(.steps) .navicon:before,
+  .header .menu-btn:checked ~ .menu-icon:not(.steps) .navicon:after {
+    top: 0;
+  }
+
+  hr {
+    display: none;
+  }
+
+  .rotate {
+    display: none;
+  }
+
+  .blocks {
+    display: block;
+  }
+
+  .Denis {
+    font-family: Gilroy-Bold, sans-serif;
+    font-size: 47px;
+    line-height: 58px;
+    margin-top: 65px;
+    margin-bottom: 23px;
+
+  }
+
+  .center {
+    font-family: Gilroy-Medium, sans-serif;
+    font-size: 18px;
+    line-height: 22px;
+    margin: 0;
+  }
+
+  .programs {
+    width: 80%;
+    margin: auto;
+
+}
+}

@@ -5,21 +5,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Портфолио</title>
     <link rel="stylesheet" href="style.css" />
-    <!-- <link rel="stylesheet" href="reset.css" /> -->
+    <link rel="stylesheet" href="adaptive.css" />
   </head>
   <body>
-    <header>
-      <nav>
-        <ul>
-          <li><a href="#Home">Home</a></li>
-          <li><a href="#About_me">About me</a></li>
-          <li><a href="#Skills">Skills</a></li>
-          <li><a href="#Portfolio">Portfolio</a></li>
-          <li><a href="#Contacts">Contacts</a></li>
-        </ul>
-      </nav>
+    <header class="header">
+      <input class="menu-btn" type="checkbox" id="menu-btn" />
+      <label class="menu-icon" for="menu-btn"
+        ><span class="navicon"></span
+      ></label>
+      <ul class="menu">
+        <li><a href="#Home">Home</a></li>
+        <li><a href="#About_me">About me</a></li>
+        <li><a href="#Skills">Skills</a></li>
+        <li><a href="#Portfolio">Portfolio</a></li>
+        <li><a href="#Contacts">Contacts</a></li>
+      </ul>
     </header>
-
+         
     <hr />
 
     <div class="blocks">
@@ -41,7 +43,8 @@
     </div>
 
     <div class="pict">
-      <img src="images/BSPP2266.png" alt="" />
+      <img class="activen" src="images/main.png" alt="" />
+      <img class="hidden" src="images/BSPP2266.png" alt="">
     </div>
 
 
@@ -170,6 +173,8 @@
       <p>
         Like me on <br> LinkedIn, Instagram, Behance, Dribble
       </p>
-    </div>
+    </div> 
+
+    <script src="main.js"></script>
   </body>
 </html>  
