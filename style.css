@@ -48,7 +48,9 @@ header ul li a:hover {
   color:black;
 }
 
- 
+.rotate_2 {
+   display: none;
+ }
 
 hr {
   width: 65%;

@@ -132,6 +132,8 @@
     width: 100%;
     z-index: 9999998;
     overflow-y: auto;
+    display: flex;
+    justify-content: space-between;
   }
   .menu ul {
     transition: all 0.3s ease-in-out;
@@ -143,7 +145,26 @@
   .menu ul li {
     transition: all 0.3s ease-in-out;
     display: block;
-    text-align: left;;
+    text-align: left;
+  }
+  .menu .rotate_2 {
+    transition: all 0.3s ease-in-out;
+    display: flex;
+    align-self: flex-end;
+    margin-bottom: 60px;
+    margin-right: 30px;
+    
+    writing-mode: tb-rl;
+    transform: rotate(360deg);
+    font-family: Gilroy-Bold, sans-serif;
+    font-size: 34px;
+    line-height: 42px;    
+    color: #828282;
+    float: right;
+    padding-right: 15px;
+  }
+  .menu .rotate_2 strong {
+    color: black;
   }
   .menu ul li a {
     padding: 20px 20px;
